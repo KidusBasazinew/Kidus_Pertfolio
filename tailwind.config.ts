@@ -1,4 +1,7 @@
 import type { Config } from "tailwindcss";
+import daisyui from "daisyui";
+
+import { fontFamily } from "tailwindcss/defaultTheme";
 
 const config: Config = {
   content: [
@@ -8,12 +11,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      fontFamily: {
+        // Define custom fonts
+        geistSans: ["var(--font-geist-sans)", ...fontFamily.sans],
+        rubik: ["var(--font-rubik)", ...fontFamily.sans],
+        geistMono: ["var(--font-geist-mono)", ...fontFamily.mono],
+      },
+      dropShadow: {
+        "11xl": "0px 0px 35px #581c87",
       },
     },
   },
-  plugins: [],
+  plugins: [daisyui],
 };
 export default config;
