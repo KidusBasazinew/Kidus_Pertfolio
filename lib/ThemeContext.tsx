@@ -7,16 +7,15 @@ import React, {
   useState,
 } from "react";
 
-// Define the type for the context value
+type Theme = "light" | "dark";
+
 interface ThemeContextType {
-  theme: string;
+  theme: Theme;
   toggleTheme: () => void;
 }
 
-// Provide a default value for the context (can be a placeholder)
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
-// Custom hook to use the ThemeContext
 export const useTheme = () => {
   const context = useContext(ThemeContext);
   if (!context) {
@@ -25,15 +24,17 @@ export const useTheme = () => {
   return context;
 };
 
-// Props interface for the ThemeProvider
 interface Props {
   children: ReactNode;
 }
 
 export const ThemeProvider = ({ children }: Props) => {
-  const [theme, setTheme] = useState(
-    () => localStorage.getItem("theme") || "light"
-  );
+  const [theme, setTheme] = useState<Theme>(() => {
+    if (typeof window !== "undefined") {
+      return (localStorage.getItem("theme") as Theme) || "light";
+    }
+    return "light";
+  });
 
   useEffect(() => {
     document.body.setAttribute("data-theme", theme);
