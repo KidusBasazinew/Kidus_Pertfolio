@@ -38,7 +38,7 @@ function AboutMe() {
         {/* About Text */}
         <div className="w-full md:w-2/3 text-center md:text-left">
           <h2 className="text-5xl font-semibold mb-4">About Me</h2>
-          <p className="text-xl  mb-6 leading-relaxed max-w-3xl">
+          <p className="text-start text-xl mb-6 leading-relaxed max-w-3xl">
             Hi! I&apos;m Kidus Basazinew, a passionate developer dedicated to
             creating impactful digital solutions. With a background in web
             technologies such as React, Next.js, and Node.js, I enjoy building
@@ -47,7 +47,7 @@ function AboutMe() {
           </p>
 
           <div className="space-y-6 ml-6">
-            <div className="flex justify-center md:justify-start">
+            <div className="flex justify-start">
               <motion.p
                 whileHover={{ scale: 1.05 }}
                 className="text-xl transition-transform duration-300 flex gap-x-2 justify-center items-center"
@@ -56,7 +56,7 @@ function AboutMe() {
                 University
               </motion.p>
             </div>
-            <div className="flex justify-center md:justify-start">
+            <div className="flex justify-start">
               <motion.p
                 whileHover={{ scale: 1.05 }}
                 className="text-xl transition-transform duration-300 flex gap-x-2 justify-center items-center"
@@ -64,7 +64,7 @@ function AboutMe() {
                 <CodeXml /> Web Development Enthusiast
               </motion.p>
             </div>
-            <div className="flex justify-center md:justify-start">
+            <div className="flex justify-start">
               <motion.p
                 whileHover={{ scale: 1.05 }}
                 className="text-xl transition-transform duration-300 flex gap-x-2 justify-center items-center"
