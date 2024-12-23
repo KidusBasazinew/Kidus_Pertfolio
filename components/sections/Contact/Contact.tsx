@@ -2,7 +2,10 @@ function Contact() {
   return (
     <section id="contact" className="flex flex-col text-center mt-24">
       <h1 className="text-3xl font-bold mb-6">Contact</h1>
-      <form action="" className="flex flex-col gap-6 mx-auto w-full max-w-lg">
+      <form
+        action=""
+        className="px-4 md:px-0 flex flex-col gap-6 mx-auto w-full max-w-lg"
+      >
         <div className="formGroup">
           <label htmlFor="name" className="sr-only">
             Name

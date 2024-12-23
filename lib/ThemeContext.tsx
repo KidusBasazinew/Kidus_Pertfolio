@@ -29,21 +29,29 @@ interface Props {
 }
 
 export const ThemeProvider = ({ children }: Props) => {
-  const [theme, setTheme] = useState<Theme>(() => {
-    if (typeof window !== "undefined") {
-      return (localStorage.getItem("theme") as Theme) || "light";
-    }
-    return "light";
-  });
+  const [theme, setTheme] = useState<Theme | null>(null);
 
   useEffect(() => {
-    document.body.setAttribute("data-theme", theme);
-    localStorage.setItem("theme", theme);
+    const storedTheme = (localStorage.getItem("theme") as Theme) || "light";
+    setTheme(storedTheme);
+    document.body.setAttribute("data-theme", storedTheme);
+  }, []);
+
+  useEffect(() => {
+    if (theme) {
+      document.body.setAttribute("data-theme", theme);
+      localStorage.setItem("theme", theme);
+    }
   }, [theme]);
 
   const toggleTheme = () => {
     setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
   };
+
+  // Render nothing until the theme is initialized
+  if (!theme) {
+    return null;
+  }
 
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>

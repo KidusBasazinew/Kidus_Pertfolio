@@ -50,7 +50,7 @@ function AboutMe() {
             <div className="flex justify-start">
               <motion.p
                 whileHover={{ scale: 1.05 }}
-                className="text-xl transition-transform duration-300 flex gap-x-2 justify-center items-center"
+                className="text-md md:text-xl transition-transform duration-300 flex gap-x-2 justify-center items-center"
               >
                 <GraduationCap /> Bachelor in Pre-Engineering - Bahir Dar
                 University
@@ -59,7 +59,7 @@ function AboutMe() {
             <div className="flex justify-start">
               <motion.p
                 whileHover={{ scale: 1.05 }}
-                className="text-xl transition-transform duration-300 flex gap-x-2 justify-center items-center"
+                className="text-md md:text-xl transition-transform duration-300 flex gap-x-2 justify-center items-center"
               >
                 <CodeXml /> Web Development Enthusiast
               </motion.p>
@@ -67,7 +67,7 @@ function AboutMe() {
             <div className="flex justify-start">
               <motion.p
                 whileHover={{ scale: 1.05 }}
-                className="text-xl transition-transform duration-300 flex gap-x-2 justify-center items-center"
+                className="text-md md:text-xl transition-transform duration-300 flex gap-x-2 justify-center items-center"
               >
                 <Earth /> Passionate About Building Solutions for World
               </motion.p>

@@ -27,7 +27,10 @@ function Skills() {
   ];
 
   return (
-    <section id="skills" className="flex flex-col text-center mt-24">
+    <section
+      id="skills"
+      className="px-4 md:px-0 flex flex-col text-center mt-24"
+    >
       <h1 className="text-4xl font-bold mb-8">Skills</h1>
       {skillCategories.map((category, index) => (
         <div key={index} className="mb-8">
