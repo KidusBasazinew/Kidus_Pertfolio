@@ -53,7 +53,7 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li>
-                  <a className="py-4" href="#projects">
+                  <a className="py-4" href="#pertfolio">
                     Projects
                   </a>
                 </li>
@@ -74,8 +74,8 @@ const Navbar = () => {
                 </a>
               </li>
               <li>
-                <a className="text-md" href="#projects">
-                  Projects
+                <a className="text-md" href="#pertfolio">
+                  Pertfolio
                 </a>
               </li>
             </ul>

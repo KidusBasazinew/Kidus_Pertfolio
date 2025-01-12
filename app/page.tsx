@@ -6,6 +6,7 @@ import Skills from "@/components/sections/Skills/Skills";
 import Footer from "@/components/sections/Footer/Footer";
 import Navbar from "@/components/Navbar";
 import AboutMe from "@/components/sections/AboutMe/AboutMe";
+import Portfolio from "@/components/sections/pertfolio/Pertfolio";
 
 const App = () => {
   return (
@@ -13,7 +14,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <AboutMe />
-      <Projects />
+      <Portfolio />
       <Skills />
       <Contact />
       <Footer />
