@@ -94,13 +94,18 @@ import Image from "next/image";
 const AboutMe = () => {
   return (
     <div id="about">
-      <Image
-        src={wave}
-        className="w-screen absolute bg-red-09 "
-        width={2000}
-        height={200}
-        alt=""
-      />
+      <div className="relative w-full">
+        {/* Add a purple background under the wave image */}
+        <div className="absolute top-0 left-0 w-full h-auto bg-purple-600 z-0">
+          <Image
+            src={wave}
+            className="absolute top-0 w-full h-auto"
+            width={2000}
+            height={200}
+            alt="Wave"
+          />
+        </div>
+      </div>
       <div className="w-full bg-purple-600 h-[300px]  justify-center items-center">
         <div className="flex flex-row justify-between absolute">
           <Image
@@ -114,7 +119,7 @@ const AboutMe = () => {
         <h1 className="text-white text-[50px] pt-[20px] font-bold text-center">
           About <span className="text-black">Me</span>
         </h1>
-        <h1 className="w-full px-10 md:px-48 lg:px-80 mt-[10px] text-white">
+        <h1 className="w-full text-sm md:text-lg px-10 md:px-48 lg:px-80 mt-[10px] text-white">
           {AppText.aboutMeDescripion}{" "}
         </h1>
       </div>
