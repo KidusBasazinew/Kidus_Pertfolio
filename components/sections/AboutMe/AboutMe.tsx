@@ -93,7 +93,7 @@ import Image from "next/image";
 // export default AboutMe;
 const AboutMe = () => {
   return (
-    <div id="about" className="mt-[100px]">
+    <div id="about">
       <Image
         src={wave}
         className="w-screen absolute bg-red-09 "
