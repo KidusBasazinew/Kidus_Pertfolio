@@ -32,7 +32,7 @@ export const ThemeProvider = ({ children }: Props) => {
   const [theme, setTheme] = useState<Theme | null>(null);
 
   useEffect(() => {
-    const storedTheme = (localStorage.getItem("theme") as Theme) || "light";
+    const storedTheme = (localStorage.getItem("theme") as Theme) || "dark";
     setTheme(storedTheme);
     document.body.setAttribute("data-theme", storedTheme);
   }, []);
