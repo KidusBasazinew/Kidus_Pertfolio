@@ -26,6 +26,10 @@ import youtube from "./youtube.png";
 import instagram from "./Instagram.png";
 import facebook from "./Facebook.png";
 import linkdin from "./LinkedIn.png";
+import html from "./html.png";
+import css from "./css.png";
+import radix from "./radix-ui.svg";
+import tailwind from "./tailwind.png";
 
 export {
   logo,
@@ -54,4 +58,8 @@ export {
   react,
   wave,
   robo,
+  html,
+  radix,
+  css,
+  tailwind,
 };

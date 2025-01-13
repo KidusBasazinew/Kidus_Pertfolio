@@ -13,7 +13,7 @@
   --font-geist-sans: "Geist Sans", sans-serif;
   --font-rubik: "Rubik", sans-serif;
   --font-geist-mono: "Geist Mono", monospace;
-  /* --svg-fill: #000; */
+  --svg-fill-color: #ffffff;
 }
 
 [data-theme="dark"] {
@@ -24,7 +24,7 @@
   --text-color: #fff;
   --form-text-color: #fff;
   --footer-text-color: #bbb;
-  --svg-fill: #fff;
+  --svg-fill-color: #1d232a;
 }
 
 body {

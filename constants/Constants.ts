@@ -1,7 +1,5 @@
 import {
   aflacLogo,
-  android,
-  angular,
   cognizantLogo,
   facebook,
   firebase,
@@ -15,6 +13,10 @@ import {
   wellsLogo,
   wiuLogo,
   youtube,
+  html,
+  css,
+  radix,
+  tailwind,
 } from "../app/assets";
 
 export const AppText = {
@@ -64,78 +66,80 @@ export const aboutSection = [
 export const skillsList = [
   {
     id: 1,
-    icon: angular,
-  },
-  {
-    id: 1,
     icon: react,
   },
   {
-    id: 1,
+    id: 2,
     icon: typescript,
   },
   {
-    id: 1,
+    id: 3,
     icon: firebase,
   },
+
   {
-    id: 1,
-    icon: android,
-  },
-  {
-    id: 1,
+    id: 4,
     icon: ionic,
   },
   {
-    id: 1,
+    id: 5,
     icon: mysql,
   },
+
   {
-    id: 1,
-    icon: react,
+    id: 6,
+    icon: html,
   },
   {
-    id: 1,
-    icon: typescript,
+    id: 7,
+    icon: css,
   },
   {
-    id: 1,
-    icon: firebase,
+    id: 8,
+    icon: radix,
   },
   {
-    id: 1,
-    icon: android,
-  },
-  {
-    id: 1,
+    id: 9,
     icon: nodejs,
+  },
+  {
+    id: 9,
+    icon: tailwind,
   },
 ];
 
 export const workDetail = [
   {
     id: 1,
-    year: "2021",
-    compnayName: "Wells Fargo",
-    position: "Lead Software Developer",
+    year: "2025",
+    companyName: "K-Labs",
+    position: "Front-End Developer",
+    description:
+      "Developed and maintained responsive web applications using React and Next.js while ensuring a seamless user experience.",
   },
   {
-    id: 1,
-    year: "2020",
-    compnayName: "Empowered Benefits",
-    position: "Full Stack Developer",
+    id: 2,
+    year: "2024",
+    companyName: "Freelance",
+    position: "Full-Stack Web Developer",
+    description:
+      "Built e-commerce and portfolio websites with modern web technologies, focusing on performance and design.",
   },
   {
-    id: 1,
-    year: "2018",
-    compnayName: "Western Illionois University",
-    position: "Full Stack Developer",
+    id: 3,
+    year: "2023",
+    companyName: "Student Project - Bahir Dar University",
+    position: "Junior Developer",
+    description:
+      "Worked on academic projects including real estate, restaurant booking, and hotel booking apps using Next.js and Prisma.",
   },
   {
-    id: 1,
-    year: "2016",
-    compnayName: "Cognizant",
-    position: "Programmer Analyst",
+    id: 4,
+    year: "2022",
+    companyName: "Freelance",
+    position: "UI/UX Designer",
+    description:
+      "Created intuitive and visually appealing UI designs for web and mobile applications using Figma.",
   },
 ];
 

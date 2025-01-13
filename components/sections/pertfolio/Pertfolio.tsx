@@ -76,7 +76,7 @@ const Portfolio = () => {
             <h1 className="text-[14px] mt-2 text-center font-bold">
               {item.title}
             </h1>
-            <p className="text-[12px] ml-6 text-gray-500 px-6 pb-3">
+            <p className="text-[12px] text-center text-gray-500 px-6 pb-3">
               {item.desc}
             </p>
           </div>

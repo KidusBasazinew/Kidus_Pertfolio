@@ -104,7 +104,7 @@ const Skills = () => {
               <div>
                 <h3 className="font-bold w-full">{item.position}</h3>
                 <h3 className="font-thin text-[15px] text-gray-400">
-                  {item.compnayName}
+                  {item.companyName}
                 </h3>
               </div>
             </div>
