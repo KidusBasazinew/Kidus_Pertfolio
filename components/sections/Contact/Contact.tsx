@@ -1,3 +1,5 @@
+import Button from "@/components/Button";
+
 function Contact() {
   return (
     <section id="contact" className="flex flex-col text-center mt-24">
@@ -44,11 +46,9 @@ function Contact() {
             className="h-64 px-4 py-3 w-full border border-gray-400 rounded-lg  text-gray-700 placeholder-gray-500 resize-none"
           ></textarea>
         </div>
-        <input
-          type="submit"
-          value="Submit"
-          className="bg-blue-500 text-white font-bold py-3 px-6 rounded-lg shadow-md hover:scale-105 active:translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 mx-auto"
-        />
+        <button type="submit">
+          <Button>Submit</Button>
+        </button>
       </form>
     </section>
   );
