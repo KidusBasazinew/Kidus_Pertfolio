@@ -9,6 +9,7 @@ type Pertfolio = {
   title: string;
   type: string;
   desc: string;
+  link: string;
   imageUrl: string;
 };
 
@@ -64,22 +65,24 @@ const Portfolio = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 px-4 sm:px-12 lg:px-24">
         {portfolioList.map((item, index) => (
-          <div
-            key={index}
-            className="p-4 flex flex-col rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-105"
-          >
-            <img
-              src={item.imageUrl}
-              className="h-[180px] object-cover rounded-lg"
-              alt={item.title}
-            />
-            <h1 className="text-[14px] mt-2 text-center font-bold">
-              {item.title}
-            </h1>
-            <p className="text-[12px] text-center text-gray-500 px-6 pb-3">
-              {item.desc}
-            </p>
-          </div>
+          <a href={item.link}>
+            <div
+              key={index}
+              className="p-4 flex flex-col rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-105"
+            >
+              <img
+                src={item.imageUrl}
+                className="h-[180px] object-cover rounded-lg"
+                alt={item.title}
+              />
+              <h1 className="text-[14px] mt-2 text-center font-bold">
+                {item.title}
+              </h1>
+              <p className="text-[12px] text-center text-gray-500 px-6 pb-3">
+                {item.desc}
+              </p>
+            </div>
+          </a>
         ))}
       </div>
     </div>

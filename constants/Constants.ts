@@ -1,3 +1,4 @@
+import { link } from "fs";
 import {
   aflacLogo,
   cognizantLogo,
@@ -146,34 +147,27 @@ export const workDetail = [
 export const portfolio = [
   {
     id: 1,
-    title: "Food Delivery UI/UX",
-    type: "ui/ux",
-    desc: "App Build using React native and compaitable for Android and IOS",
-    imageUrl:
-      "https://cdn.dribbble.com/users/4189231/screenshots/17343305/media/202173138f9504c2eacd16e70698312c.png?compress=1&resize=400x300",
-  },
-  {
-    id: 4,
-    title: "Funny Website",
+    title: "Hotel Room Booking System",
     type: "website",
-    desc: "App Build using React native and compaitable for Android and IOS",
-    imageUrl: "https://miro.medium.com/max/1400/0*GWvV5kcuVATUfs2r.png",
+    link: "https://hotel-booking-app-kohl.vercel.app/",
+    desc: "Built a responsive hotel booking system using React, Next.js, and Tailwind CSS.",
+    imageUrl: "/project_02.jpg",
   },
   {
     id: 2,
-    title: "Business Listing App",
-    type: "mobile",
-    desc: "App Build using React native and compaitable for Android and IOS",
-    imageUrl:
-      "https://www.radiustheme.com/wp-content/uploads/2022/05/Directory-app.png",
+    title: "Website for Agency",
+    type: "website",
+    link: "https://k-labs-tau.vercel.app/",
+    desc: "Developed an interactive portfolio website for a digital agency using Next.js and TypeScript.",
+    imageUrl: "/project_03.jpg",
   },
   {
     id: 3,
-    title: "Food Delivery UI/UX",
-    type: "ui/ux",
-    desc: "App Build using React native and compaitable for Android and IOS",
-    imageUrl:
-      "https://cdn.dribbble.com/users/2892962/screenshots/14273462/nlytical_mockup_4x.png",
+    title: "Car Rental Platform",
+    type: "website",
+    link: "https://car-rental-tau-sage.vercel.app/",
+    desc: "Designed and developed a full-stack car rental platform with booking and admin dashboard.",
+    imageUrl: "/project_01.jpg",
   },
 ];
 
