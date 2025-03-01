@@ -7,7 +7,7 @@ import Footer from "@/components/sections/Footer/Footer";
 import Navbar from "@/components/Navbar";
 import AboutMe from "@/components/sections/AboutMe/AboutMe";
 import Portfolio from "@/components/sections/pertfolio/Pertfolio";
-// import HomePage from "@/components/sections/Some";
+// import HomePage from "@/components/sections/Som";
 
 const App = () => {
   return (
