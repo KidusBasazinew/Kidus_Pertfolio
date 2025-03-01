@@ -112,7 +112,7 @@ export const skillsList = [
 export const workDetail = [
   {
     id: 1,
-    year: "2025",
+    year: ">",
     companyName: "K-Labs",
     position: "Front-End Developer",
     description:
@@ -120,7 +120,7 @@ export const workDetail = [
   },
   {
     id: 2,
-    year: "2024",
+    year: ">",
     companyName: "Freelance",
     position: "Full-Stack Web Developer",
     description:
@@ -128,7 +128,7 @@ export const workDetail = [
   },
   {
     id: 3,
-    year: "2023",
+    year: ">",
     companyName: "Student Project - Bahir Dar University",
     position: "Junior Developer",
     description:
@@ -136,7 +136,7 @@ export const workDetail = [
   },
   {
     id: 4,
-    year: "2022",
+    year: ">",
     companyName: "Freelance",
     position: "UI/UX Designer",
     description:
