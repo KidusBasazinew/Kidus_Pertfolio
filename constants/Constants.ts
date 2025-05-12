@@ -113,7 +113,7 @@ export const workDetail = [
   {
     id: 1,
     year: ">",
-    companyName: "K-Labs",
+    companyName: "Self-Employed",
     position: "Front-End Developer",
     description:
       "Developed and maintained responsive web applications using React and Next.js while ensuring a seamless user experience.",
@@ -122,9 +122,9 @@ export const workDetail = [
     id: 2,
     year: ">",
     companyName: "Freelance",
-    position: "Full-Stack Web Developer",
+    position: "Backend Web Developer",
     description:
-      "Built e-commerce and portfolio websites with modern web technologies, focusing on performance and design.",
+      "Built hotel management system and ai travel planner and so on websites with modern web technologies, focusing on performance and design.",
   },
   {
     id: 3,
@@ -201,22 +201,12 @@ export const CompanyImage = [
 export const socialNetwork = [
   {
     id: 1,
-    logo: instagram,
-    url: "https://www.instagram.com/tubeguruji/",
-  },
-  {
-    id: 1,
-    logo: youtube,
-    url: "https://www.youtube.com/channel/UC33Tc4FCgd_to314_b2hNTg",
-  },
-  {
-    id: 1,
     logo: linkdin,
-    url: "https://www.linkedin.com/in/rahul-sanap-652920108/",
+    url: "https://www.linkedin.com/in/kidus-basazinew-779914225/",
   },
   {
     id: 1,
     logo: facebook,
-    url: "https://www.facebook.com/rahul.sanap1",
+    url: "",
   },
 ];
