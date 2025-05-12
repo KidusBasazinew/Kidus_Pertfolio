@@ -175,7 +175,7 @@ export const portfolio = [
     type: "website",
     link: "https://ai-travel-agenct.vercel.app/",
     desc: "Full-stack ai trip planner and smart planner that checks live weather and suggests destinations dynamically Built with Nextjs",
-    imageUrl: "/project_05.png",
+    imageUrl: "/project-05.png",
   },
 ];
 
