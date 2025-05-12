@@ -169,6 +169,14 @@ export const portfolio = [
     desc: "Designed and developed a full-stack car rental platform with booking and admin dashboard.",
     imageUrl: "/project_01.jpg",
   },
+  {
+    id: 3,
+    title: "Ai Based Trip Planner",
+    type: "website",
+    link: "https://ai-travel-agenct.vercel.app/",
+    desc: "Full-stack ai trip planner and smart planner that checks live weather and suggests destinations dynamically Built with Nextjs",
+    imageUrl: "/project_05.jpg",
+  },
 ];
 
 export const CompanyImage = [
