@@ -53,11 +53,7 @@ function Hero() {
         />
         <h2 className="text-2xl font-medium">Frontend Developer</h2>
         <span className="flex gap-6 justify-center">
-          <a
-            href="https://twitter.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="" target="_blank" rel="noopener noreferrer">
             <Image
               src={twitterIcon}
               alt="Twitter icon"
@@ -67,7 +63,7 @@ function Hero() {
             />
           </a>
           <a
-            href="https://github.com/"
+            href="https://github.com/kidusbasazinew"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -80,7 +76,7 @@ function Hero() {
             />
           </a>
           <a
-            href="https://linkedin.com/"
+            href="https://www.linkedin.com/in/kidus-basazinew-779914225/"
             target="_blank"
             rel="noopener noreferrer"
           >
